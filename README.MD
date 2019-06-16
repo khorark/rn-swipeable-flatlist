@@ -13,7 +13,7 @@ npm i --save react-native-swipeable-flatlist
 ## Usage
 
 ```javascript
-import SwipebleList from 'react-native-swipeable-flatlist';
+import SwipebleList from '@khorark/react-native-swipeable-flatlist';
 
 function MyListItem() {
     return (

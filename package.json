@@ -1,5 +1,5 @@
 {
-  "name": "react-native-swipeable-flatlist",
+  "name": "@khorark/react-native-swipeable-flatlist",
   "version": "0.1.0",
   "description": "A simple and fast react-native swipeable flastlist component",
   "main": "index.js",
