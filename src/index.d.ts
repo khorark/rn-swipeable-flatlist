@@ -12,6 +12,6 @@ export interface SwipebleListProperties extends FlatListProps {
 
 interface SwipebleList extends React.ComponentClass<SwipebleListProperties> {}
 
-declare const SwipebleList: SwipebleList
+declare const SwipebleList: SwipebleList;
 
-export default SwipebleList
+export default SwipebleList;

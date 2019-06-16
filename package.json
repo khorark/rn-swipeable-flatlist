@@ -4,9 +4,14 @@
   "description": "A simple and fast react-native swipeable flastlist component",
   "main": "index.js",
   "scripts": {
+    "prettier": "prettier --write **/*.{ts,tsx,js}",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "eslint": "5.16.0",
+    "eslint-config-prettier": "5.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "7.13.0",
     "prettier": "1.18.2",
     "prop-types": "15.7.2"
   },
