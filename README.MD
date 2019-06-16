@@ -50,5 +50,5 @@ function MyListItem() {
 
 MIT
 
-[npm-image]: https://badge.fury.io/js/react-native-swipeable.svg
-[npm-url]: https://npmjs.org/package/react-native-swipeable
+[npm-image]: https://badge.fury.io/js/%40khorark%2Freact-native-swipeable-flatlist.svg
+[npm-url]: https://www.npmjs.com/package/@khorark/react-native-swipeable-flatlist
