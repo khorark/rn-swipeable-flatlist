@@ -1,0 +1,14 @@
+// @flow
+
+
+export type SwipebleListProperties = {
+    leftColor?: string;
+    rightColor?: string;
+    leftView?: Element;
+    rightView?: Element;
+    onSwipeLeft: (item: any) => void;
+    onSwipeRight: (item: any) => void;
+}
+
+
+declare export default class SwipebleList extends React$Component<SwipebleListProperties> {}
