@@ -7,7 +7,7 @@ A simple and fast React Native swipeble flatlist component. Supports both iOS an
 ## Installation
 
 ```sh
-npm i --save react-native-swipeable-flatlist
+npm i --save @khorark/react-native-swipeable-flatlist
 ```
 
 ## Usage
