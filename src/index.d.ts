@@ -2,6 +2,7 @@ import React from 'react';
 import { FlatListProps } from 'react-native';
 
 export interface SwipebleListProperties extends FlatListProps {
+    swipeDistanceActive?: number;
     leftColor?: string;
     rightColor?: string;
     leftView?: Element;

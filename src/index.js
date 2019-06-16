@@ -6,8 +6,7 @@ import SwipeRow from './components/SwipeRow';
 export default class SwipebleList extends PureComponent {
     static propTypes = {
         ...ViewPropTypes,
-        swipeLeftDistanceActive: PropTypes.number,
-        swipeRightDistanceActive: PropTypes.number,
+        swipeDistanceActive: PropTypes.number,
         leftColor: PropTypes.string,
         rightColor: PropTypes.string,
         leftView: PropTypes.element,

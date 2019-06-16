@@ -2,6 +2,7 @@
 
 
 export type SwipebleListProperties = {
+    swipeDistanceActive?: number;
     leftColor?: string;
     rightColor?: string;
     leftView?: Element;
