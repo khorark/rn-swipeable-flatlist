@@ -48,9 +48,11 @@ function MyListItem() {
 
 ## Example
 
+For example used view Example/index.js file.
+
 ## License
 
 MIT
 
-[npm-image]: https://badge.fury.io/js/%40khorark%2Frn-swipeable-flatlist.svg
-[npm-url]: https://www.npmjs.com/package/@khorark/rn-swipeable-flatlist
+[npm-image]: https://badge.fury.io/js/rn-swipeable-flatlist.svg
+[npm-url]: https://www.npmjs.com/package/rn-swipeable-flatlist
