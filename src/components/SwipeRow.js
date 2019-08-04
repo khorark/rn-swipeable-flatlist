@@ -6,7 +6,7 @@ export default class SwipeRow extends PureComponent {
         super(props);
         const { width } = Dimensions.get('window');
         this.width = width;
-        this.durationAnimated = props.duration || 300;
+        this.durationAnimated = props.duration;
 
         this.panResponder = PanResponder.create({
             onStartShouldSetPanResponder: () => true,
@@ -133,7 +133,6 @@ const styles = StyleSheet.create({
     container: {
         flexDirection: 'row',
         alignItems: 'center',
-        marginTop: 12,
     },
     swipeArea: {
         paddingHorizontal: 25,

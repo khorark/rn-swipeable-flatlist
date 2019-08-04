@@ -20,6 +20,7 @@ function MyListItem() {
         <View>
             <SwipebleList
                 data={[1, 2, 3]}
+                duration={500}
                 renderItem={this.renderItem}
                 keyExtractor={this.keyExtractor}
                 leftColor={'green'}
@@ -37,6 +38,7 @@ function MyListItem() {
 | prop                  | type       | default                  | description                                                          |
 | --------------------- | ---------- | ------------------------ | -------------------------------------------------------------------- |
 | `swipeDistanceActive` | integer    | 0.3                      | swipeable distance for active swipe                                  |
+| `duration`            | integer    | 300                      | swipe duration                                                       |
 | `leftView`            | renderable | `null`                   | (optional) left content visible during pull action                   |
 | `rightView`           | renderable | `null`                   | (optional) right content visible during pull action                  |
 | `leftColor`           | string     | rgba(146, 149, 181, 0.7) | (optional) background color for left content                         |

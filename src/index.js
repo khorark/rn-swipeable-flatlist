@@ -7,6 +7,7 @@ export default class SwipebleList extends PureComponent {
     static propTypes = {
         ...ViewPropTypes,
         swipeDistanceActive: PropTypes.number,
+        duration: PropTypes.number,
         leftColor: PropTypes.string,
         rightColor: PropTypes.string,
         leftView: PropTypes.element,
@@ -25,6 +26,7 @@ export default class SwipebleList extends PureComponent {
         const {
             renderItem,
             swipeDistanceActive = 0.3,
+            duration = 300,
             leftColor = 'rgba(146, 149, 181, 0.7)',
             rightColor = 'rgba(132, 147, 158, 0.7)',
             leftView = null,
@@ -37,6 +39,7 @@ export default class SwipebleList extends PureComponent {
             <SwipeRow
                 refList={this.flatListRef}
                 item={data.item}
+                duration={duration}
                 swipeDistanceActive={swipeDistanceActive}
                 leftColor={leftColor}
                 rightColor={rightColor}
