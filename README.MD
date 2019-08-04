@@ -2,18 +2,18 @@
 
 A simple and fast React Native swipeble flatlist component. Supports both iOS and Android.
 
-<img src="https://raw.githubusercontent.com/khorark/react-native-swipeable-flatlist/master/demo.gif" width="400">
+<img src="https://raw.githubusercontent.com/khorark/rn-swipeable-flatlist/master/demo.gif" width="400">
 
 ## Installation
 
 ```sh
-npm i --save @khorark/react-native-swipeable-flatlist
+npm i --save rn-swipeable-flatlist
 ```
 
 ## Usage
 
 ```javascript
-import SwipebleList from '@khorark/react-native-swipeable-flatlist';
+import SwipebleList from 'rn-swipeable-flatlist';
 
 function MyListItem() {
     return (
@@ -50,5 +50,5 @@ function MyListItem() {
 
 MIT
 
-[npm-image]: https://badge.fury.io/js/%40khorark%2Freact-native-swipeable-flatlist.svg
-[npm-url]: https://www.npmjs.com/package/@khorark/react-native-swipeable-flatlist
+[npm-image]: https://badge.fury.io/js/%40khorark%2Frn-swipeable-flatlist.svg
+[npm-url]: https://www.npmjs.com/package/@khorark/rn-swipeable-flatlist
