@@ -1,6 +1,6 @@
 {
   "name": "rn-swipeable-flatlist",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "A simple and fast react-native swipeable flastlist component",
   "main": "index.js",
   "scripts": {
